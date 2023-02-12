@@ -953,13 +953,22 @@ position = Vector2( 256, -128 )
 position = Vector2( 272, -128 )
 
 [node name="Bat" parent="YSort" instance=ExtResource( 8 )]
-position = Vector2( 136, 104 )
+position = Vector2( 184, -96 )
 
 [node name="Bat2" parent="YSort" instance=ExtResource( 8 )]
-position = Vector2( 96, 128 )
+position = Vector2( -48, -80 )
 
 [node name="Bat3" parent="YSort" instance=ExtResource( 8 )]
-position = Vector2( 240, 8 )
+position = Vector2( 384, -96 )
+
+[node name="Bat4" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( 528, 32 )
+
+[node name="Bat5" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( 248, -208 )
+
+[node name="Bat6" parent="YSort" instance=ExtResource( 8 )]
+position = Vector2( 56, -144 )
 
 [node name="SunLight" type="Sprite" parent="."]
 modulate = Color( 0.541176, 0.313726, 0.313726, 1 )
